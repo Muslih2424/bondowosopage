@@ -1,0 +1,37 @@
+.bg-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background: url(../image/vector.jpg);
+    border-radius: 30px;
+}
+
+.card{
+    width: 300px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.65);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.bg-card{
+    padding: 16px;
+}
+
+.bg-card h1{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.bg-card p{
+    color: #666;
+    font-size: 13px;
+    line-height: 1.3;
+}
